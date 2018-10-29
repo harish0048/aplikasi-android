@@ -30,18 +30,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         recyclerView.setHasFixedSize(true);
         getSupportLoaderManager().initLoader(0, null, (LoaderManager.LoaderCallbacks<ArrayList<Movie>>)this).forceLoad();
     }
-    /*View btnLang = findViewById(R.id.action_cardview);
-        btnLang.(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            Intent intent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
-            startActivity(intent);
-        }
-    });*/
-    /*public void Pindah(View view) {
-        Intent intent = new Intent(MainActivity.this, MovieSinglePage.class);
-        startActivity(intent);
-    }*/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
