@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="button">Selengkapnya</string>
+    <string name="txtMenu">Pengaturan</string>
+    <string name="date">Tanggal Tayang</string>
+</resources>
